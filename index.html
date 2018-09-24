@@ -9,19 +9,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="number_plugin/number_plugin.js" type="text/javascript"></script>
     <link href="number_plugin/number_plugin.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="app.js" type="text/javascript"></script>
 </head>
 <body>
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh">
-    <table>
-        <tr><td align="center" valign="top">
-            <b>Обычный<br> &#60;input type="number" value="1"&#62; <br><br>
-<input type="number" id="1" value="1">
-        </td><td align="center">
-            <b>С применением плагина "number_plugin"<br> &#60;input type="number" class="numb" value="1"&#62; <br><br></b>
-<input type="number" class="numb" id="2" value="1">
-        </td></tr>
-    </table>
+<div class="wrapper">
+    <div>
+        <input type="number" class="numb" id="1" value="1">
+    </div>
+    <div>
+        <input type="number" class="numb" id="2" value="1">
+    </div>
 </div>
 </body>
 </html>
